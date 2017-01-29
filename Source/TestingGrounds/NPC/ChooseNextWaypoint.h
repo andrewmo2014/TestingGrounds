@@ -9,7 +9,7 @@
  * 
  */
 UCLASS()
-class S05_TESTINGGROUNDS_API UChooseNextWaypoint : public UBTTaskNode
+class TESTINGGROUNDS_API UChooseNextWaypoint : public UBTTaskNode
 {
 	GENERATED_BODY()
 	
@@ -23,3 +23,4 @@ protected:
 	struct FBlackboardKeySelector WaypointKey;
 	
 };
+

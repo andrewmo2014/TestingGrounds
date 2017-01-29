@@ -5,7 +5,7 @@
 #include "TestingGroundsHUD.h"
 #include "Player/FirstPersonCharacter.h"
 
-AS05_TestingGroundsGameMode::AS05_TestingGroundsGameMode()
+ATestingGroundsGameMode::ATestingGroundsGameMode()
 	: Super()
 {
 	// set default pawn class to our Blueprinted character
@@ -13,5 +13,5 @@ AS05_TestingGroundsGameMode::AS05_TestingGroundsGameMode()
 	DefaultPawnClass = PlayerPawnClassFinder.Class;
 
 	// use our custom HUD class
-	HUDClass = AS05_TestingGroundsHUD::StaticClass();
+	HUDClass = ATestingGroundsHUD::StaticClass();
 }
