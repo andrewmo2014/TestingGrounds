@@ -61,6 +61,3 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-
-# Temporary GitLFS issue
-Content/Weapons/FPWeapon/Behaviour/FirstPersonProjectile.uasset
